@@ -23,7 +23,8 @@ class Artist
   end
   
   def songs
-    @@all
+    @@all.select do |song|
+      song.
   end
   
   def self.song_count
