@@ -13,7 +13,7 @@ class Author
   end
   
   def add_post(name)
-    name = Post.new
+    name = Post.new(name)
     name.title = self
 end
 end
