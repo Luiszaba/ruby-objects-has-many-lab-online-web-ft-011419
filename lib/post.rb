@@ -16,7 +16,6 @@ end
   def 
   
   def author_name
-    title = Post.new
-    title.author = self
+    title.author if author
 end
 end
