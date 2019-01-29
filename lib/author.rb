@@ -10,7 +10,7 @@ class Author
   
   
   def self.posts
-    @@post_count.all.select {|posted| posted. == posted
+    Post.all.select {|posted| posted.title == self}
   end
   
   def posts.all
