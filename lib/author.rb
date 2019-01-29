@@ -17,4 +17,3 @@ class Author
     name.title = self
 end
 end
-end
