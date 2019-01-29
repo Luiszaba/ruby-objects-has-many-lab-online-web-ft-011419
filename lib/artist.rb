@@ -3,8 +3,6 @@ class Artist
   attr_accessor :name
 
   @@song_count = []
-  
-  # Song class uses @@all so we must
 
   def initialize(name)
     @name = name
