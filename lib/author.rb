@@ -12,7 +12,7 @@ class Author
     @@post_count << self
   end
   
-  def add_post(name)
+  def add_post
     name = Post.new
     name.title = self
 end
