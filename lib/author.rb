@@ -8,6 +8,11 @@ class Author
     @@post_count << self
   end
   
+  
+  def self.posts
+    @@post_count
+  end
+  
   def posts
     @@post_count << self
   end
