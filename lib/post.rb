@@ -13,6 +13,8 @@ end
     @@all
   end
   
+  def 
+  
   def author_name
     title = Post.new
     title.author = self
