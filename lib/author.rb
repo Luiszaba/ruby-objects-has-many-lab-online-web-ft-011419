@@ -13,8 +13,8 @@ class Author
     @@post_count
   end
   
-  def posts
-    @@post_count << self
+  def posts.all
+    @@post_count
   end
   
   def add_post
