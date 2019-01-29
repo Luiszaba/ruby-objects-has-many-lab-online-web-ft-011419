@@ -16,6 +16,6 @@ end
   def 
   
   def author_name
-    author.name if author
+    author.name if author ? author : nil
 end
 end
