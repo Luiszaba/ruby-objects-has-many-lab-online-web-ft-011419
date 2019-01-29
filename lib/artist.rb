@@ -12,11 +12,12 @@ class Artist
   
   def add_song(name)
     song = Song.new(name)
-    song.artist = self
+    song.name = self
     @@all << self
   end
   
-  def add_song_by_name(song)
+  def add_song_by_name(name)
+    song = Song.new(name)
     song.artist = self
   end
   
