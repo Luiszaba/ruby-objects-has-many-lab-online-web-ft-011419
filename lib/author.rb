@@ -9,7 +9,9 @@ class Author
   end
   
   
-  3
+  def self.posts
+    Post.all.select {|posts| posts.title == self}
+  end
   
   def posts.all
     @@post_count
