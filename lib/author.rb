@@ -13,7 +13,7 @@ class Author
     Post.all.select {|posts| posts.title == self}
   end
   
-  def posts
+  def posts(posts)
     @@post_count
   end
   
