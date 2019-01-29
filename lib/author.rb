@@ -20,6 +20,7 @@ class Author
     post = Post.new(title)
     post.author = self
   end
+  
   def posts
     Post.all.select {|post| post.title == self}
   end
