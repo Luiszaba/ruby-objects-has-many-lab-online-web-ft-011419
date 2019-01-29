@@ -16,6 +16,6 @@ end
   def 
   
   def author_name
-    title.name if author
+    author.name if author
 end
 end
