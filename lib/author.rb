@@ -12,6 +12,7 @@ class Author
   def self.posts
     Post.all.select {|posts| posts.title == self}
   end
+end
   
   def posts.all
     @@post_count
@@ -20,6 +21,5 @@ class Author
   def add_post
     name = Post.new
     name.title = self
-end
 end
 end
